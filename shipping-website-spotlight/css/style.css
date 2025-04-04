@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1100px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+        header {
+            background: white;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        header ul li a {
+            text-decoration: none;
+
+            
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 10%;
+        }
+        .hero-text h1 {
+            font-size: 56px;
+            font-weight:bolder ;
+            color: #001854; /* Navy Blue */;
+            margin-top: 40px;
+        }
+        .hero-text p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #606060;
+        }
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button1  {
+        	background: blue;
+        	color: white;
+        	display: inline-block;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            border: 2px solid grey ;
+
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: white;
+            color: blue;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            border: 2px solid grey ;
+        }
+
+        .top-image {
+        	width: auto;
+        	height: 700px ;
+        	margin-right: 60px;
+        }
+
+        .image-container {
+              position: relative;
+              width: 400px;
+              height: 600px;
+              overflow: visible;
+              right: 0;
+              left: 500px;
+              margin-left: 0;
+              margin-right: 0;
+              float: right;
+}
+
+        .top-image {
+            position: relative;
+            width: 100%;
+            height: auto;
+            z-index: 2;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+}
+
+        .bottom-image {
+
+                position: absolute;
+                bottom: -20px;
+                right: -50px;
+                width: 150px;
+                height: auto;
+                z-index: 1;
+                opacity: 0.6;
+               
+}
+
+        .grey-bg {
+                position: absolute;
+                bottom: -60px; /* Adjust as needed */
+                right: -180px;  /* Adjust as needed */
+                width: 500px;  /* Make it a bit bigger than the mesh */
+                height: 600px;
+                background: #f0f0f0; /* Light grey */
+                z-index: 0; /* Behind everything */
+
+}
+
+        .blue-background {
+               background-color: #001854; /* Navy Blue */
+               height: 270px;
+               width: 400px;
+               color: white;
+               position: relative;
+               right: 600px;
+               bottom: -130px;
+               z-index: 2;
+               left: -170px;
+}
+
+        .text-on-top {
+             color: white;
+
+             font-size: 1.1rem;
+             line-height: 1.5;
+             padding: 30px;
+}
+        
+        .quotes {
+
+        	margin-left: -28px;
+        }
+
+        .myalign{
+        	justify-content: center; /* Center horizontally */
+   			 align-items: center;    /* Center vertically */
+        }
+
+        
+
+
+        
+        
